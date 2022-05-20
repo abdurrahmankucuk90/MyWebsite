@@ -1,99 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="giris sayfasi.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <header class="header">
-            <nav class="header-left">
-                <h1>ABDURRAHMAN KUCUK</h1>
-            </nav>
-            <nav id="header-right">
-                <a href="#">About Me</a>
-                <a href="#">My Progress</a>
-                <a href="#">My CV</a>
-            </nav>            
-        </header>
-        <div class="searchScreen">
-            <img src="./img/google-logo-png.png" alt="" id="google-logo">
-            <div class="searchbar">
-                <img src="./img/magnifying_glass.jpg" alt="" id="mag">
-                <input type="search" name="" id="input-bar">
-                <a href="#" id="mic-a"><img src="./img/google_microphone.png" alt="" id="mic"></a>
-            </div>
-            <div class="sections">
-                <div class="sections-bar">
-                    <header class="header-section">
-                        <h1>ENTERTAINING</h1>
-                    </header>
-                    <div class="section-bar-icons">
-                        <a href=""><img src="https://pngimg.com/uploads/netflix/netflix_PNG10.png" alt="Netflix" class="icon"></a>
-                       
-                    </div>
-                    
-                    <div class="section-bar-icons">
-                        <a href=""><img src="./img/youtube logo.png" alt="" class="icon"></a>
-                        
-
-                    </div>
-
-                    <div class="section-bar-icons">
-                        <a href=""><img src="./img/Disneylogo.png" alt="DisneyPlus" id="disneylogo" class="icon"></a>
-                    </div>
-
-                </div>
-
-                <div class="sections-bar">
-                    <header class="header-section">
-                        <h1>JOB</h1>
-                    </header>
-                    <div class="section-bar-icons">
-                        <a href=""><img src="./img/githublogo.png" alt="" class="icon"></a>
-                       
-                    </div>
-                    
-                    <div class="section-bar-icons">
-                        <a href=""><img src="./img/githublogo.png" alt="" class="icon"></a>
-                        
-
-                    </div>
-                    <div class="section-bar-icons">
-                        <a href=""><img src="./img/githublogo.png" alt="" class="icon"></a>
-                        
-
-                    </div>
-                    
-
-                   
-                </div>
-
-                <div class="sections-bar">
-                    <header class="header-section">
-                        <h1>LANGUAGE</h1>
-                    </header>
-                    <div class="section-bar-icons">
-                        <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/d/db/Google_Translate_Icon.png" alt="" class="icon"></a>
-                       
-                    </div>
-                    
-                    <div class="section-bar-icons">
-                        <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/d/db/Google_Translate_Icon.png" alt="" class="icon"></a>
-                        
-
-                    </div>
-
-                    <div class="section-bar-icons">
-                        <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/d/db/Google_Translate_Icon.png" alt="" class="icon"></a>
-                    </div>
-                </div>
-            </div>
+      <div class="header">
+        <div class="header__left">
+          <h1>ABDURRAHMAN KUCUK</h1>
         </div>
+        <div class="header__right">
+          <ul>
+            <li><a href="#" class="header__right--links">HOME</a></li>
+            <li><a href="#" class="header__right--links">ABOUT ME</a></li>
+            <li><a href="#" class="header__right--links">MY STUDIES</a></li>
+            <li><a href="#" class="header__right--links">MY CV</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="middle">
+        <div class="middle__logo">
+          <img src="./img/google-logo-png.png" id="logo" alt="" />
+        </div>
+        <div class="middle__searchbar">
+          <div class="middle__searchbar--input">
+            <input type="search" name="" id="searchbar" />
+          </div>
+        </div>
+      </div>
+      <div class="sections">
+        <div class="sections__section">
+          <div class="sections__section--1">
+            <h3 class="smallbox">ENTERTAINING</h3>
+            <div class="smallbox" id="netflix">empty</div>
+            <div class="smallbox" id="disney">empty</div>
+            <div class="smallbox" id="youtube">empty</div>
+            <div class="smallbox" id="hbo-max">empty</div>
+            <div class="smallbox" id="turkanime">empty</div>
+          </div>
+          <div class="sections__section--2">
+            <h3 class="smallbox">JOB</h3>
+            <div class="smallbox" id="github">empty</div>
+            <div class="smallbox" id="clarusway">empty</div>
+            <div class="smallbox" id="pixabay">empty</div>
+          </div>
+          <div class="sections__section--3">
+            <h3 class="smallbox">Others</h3>
+            <div class="smallbox" id="whatsapp">empty</div>
+            <div class="smallbox" id="translate">empty</div>
+            <div class="smallbox" id="ordbok">empty</div>
 
+          </div>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
