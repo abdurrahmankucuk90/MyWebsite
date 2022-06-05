@@ -1,122 +1,18 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-  list-style: none;
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.container {
-  display: flex;
-  width: 100%;
-  flex-wrap: wrap;
-  gap: 5rem;
+body{
+  height: 100vh;
 }
 
-.header {
-  width: 100%;
-  height: 10%;
-  display: flex;
-  justify-content: space-between;
-  padding: 1rem 2rem;
-  background-color: lightblue;
-}
 
-.header__left,
-.header__right {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.header__right ul li {
-  display: inline-block;
-}
-
-.header__right ul {
-  display: flex;
-  justify-content: space-around;
-  gap: 1rem;
-}
-
-.middle {
-  width: 100%;
-  height: 50%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: lightcoral;
-}
-.middle__logo {
-  width: max-content;
-}
-
-#logo {
-  width: 30rem;
-}
-.middle__searchbar {
-  width: 100%;
-  height: 2rem;
-  display: flex;
-  justify-content: center;
-  background-color: lightpink;
-}
-.middle__searchbar--input {
-  width: 20%;
-  height: 100%;
-  background-color: lightsalmon;
-  display: flex;
-  justify-content: center;
-}
-
-#searchbar {
-  width: 85%;
-  height: 100%;
-}
-
-.sections {
-  background-color: lightgreen;
-  width: 100%;
-  height: max-content;
-  display: flex;
-  justify-content: center;
-}
-
-.sections__section {
-  background-color: lightskyblue;
-  display: flex;
-  justify-content: space-around;
-  width: 50%;
-  background-color: lightslategray;
-}
-
-.sections__section--1,
-.sections__section--2,
-.sections__section--3 {
-  background-color: lightblue;
-  width: 25%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 0.5fr 1fr 1fr 1fr;
-}
-
-.smallbox{
-  background-color: lightpink;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-}
-
-.sections__section--1 h3,
-.sections__section--2 h3,
-.sections__section--3 h3{
-  grid-column: span 3;
-  width: 100%;
- }
- .sections__section--1 div,
-.sections__section--2 div,
-.sections__section--3 div{
-  border: 1px solid black;
+/**HEADER*/ 
+.navbar-brand img{
   width: 5rem;
-  height: 5rem;
+}
+
+/**CONTAINER*/
+.container{
+  height: calc(100vh - 55px);
 }
