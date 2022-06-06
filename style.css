@@ -16,3 +16,14 @@ body{
 .container{
   height: calc(100vh - 55px);
 }
+.imageBack{
+  background-image: url(./img/Bergen\ view.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+
+.imgPerson{
+  width: 20rem;
+}
